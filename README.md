@@ -1,88 +1,152 @@
 <div align="center">
 
-# Mengfei Zhu
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:0f766e&height=190&section=header&text=ZyfNO2&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Agent%20Systems%20%C2%B7%20Computer%20Vision%20%C2%B7%20Game%20AI&descAlignY=58&descSize=18" />
 
-**AI & Software Engineer · Autonomous Agents · Computer Vision · Game AI**
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&pause=900&color=7AA2F7&center=true&vCenter=true&width=760&lines=Building+reliable+AI+agent+systems;Exploring+autonomous+behavior+and+Game+AI;Turning+computer+vision+into+3D+understanding;Research-minded+%C3%97+engineering-driven" alt="Typing SVG" />
+</a>
 
-Building reliable agent systems, research tools, and interactive AI applications.
-
-自律型エージェント、コンピュータビジョン、ゲームAIに関心を持ち、再現性と信頼性を重視したAIシステムを開発しています。
+<p>
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents-7aa2f7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Research-Computer%20Vision-9ece6a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Game%20AI-bb9af7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Principle-Reliable%20Systems-f7768e?style=for-the-badge" />
+</p>
 
 </div>
 
-## About Me
+## `> profile`
 
-I have a background in software engineering and practical experience with game systems, rule-based behavior control, and AI-assisted development. My current work focuses on turning complex AI ideas into bounded, testable, and reproducible software systems.
+```yaml
+focus:
+  - reliable and auditable agent runtimes
+  - autonomous behavior and multi-agent systems
+  - computer vision, 3D perception, and point clouds
+  - game systems and interactive AI applications
 
-My research interest is motivated by a practical problem: as rule-based NPC behavior grows, interactions among conditions, priorities, and state transitions become increasingly difficult to maintain. I am therefore exploring how imitation learning and reinforcement learning can support more adaptive behavior control while preserving clear evaluation and engineering constraints.
+research_direction:
+  - imitation learning
+  - reinforcement learning
+  - learning-based NPC behavior control
+  - reproducible AI evaluation
 
-## Research Interests
+engineering_values:
+  - bounded execution
+  - explicit capability maturity
+  - testable architecture
+  - failure-aware design
+```
 
-- Autonomous agents and multi-agent systems
-- Imitation learning and reinforcement learning
-- Learning-based NPC behavior control and game AI
-- Computer vision, 3D perception, and point-cloud processing
-- Reliable, auditable, and reproducible AI systems
+## `> featured_projects`
 
-## Selected Projects
+<div align="center">
 
-### [PaperClaw](https://github.com/ZyfNO2/PaperClaw)
+<a href="https://github.com/ZyfNO2/PaperClaw">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=PaperClaw&theme=tokyonight&hide_border=true&description_lines_count=2" />
+</a>
+<a href="https://github.com/ZyfNO2/Mapping">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=Mapping&theme=tokyonight&hide_border=true&description_lines_count=2" />
+</a>
 
-An auditable Agent Runtime under active development for coding, research, and multi-agent workflows. The project explores bounded tool execution, evidence verification, context and memory management, retrieval, durable task execution, and versioned artifacts. Capability maturity is explicitly separated into shipped, foundation, experimental, and planned states.
+<a href="https://github.com/ZyfNO2/PaperAgent">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=PaperAgent&theme=tokyonight&hide_border=true&description_lines_count=2" />
+</a>
+<a href="https://github.com/ZyfNO2/TBS_Game">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=TBS_Game&theme=tokyonight&hide_border=true&description_lines_count=2" />
+</a>
 
-`Python` · `Agent Runtime` · `Retrieval` · `Multi-Agent Systems` · `SQLite` · `Desktop Integration`
+</div>
 
-### [3D Damage Mapping with ZED and YOLO](https://github.com/ZyfNO2/Mapping)
+### 🦞 PaperClaw
 
-A computer-vision pipeline that applies YOLO segmentation to ZED video data, maps 2D damage masks into fused 3D point clouds, performs point-cloud post-processing, and estimates damaged surface area.
+An auditable Agent Runtime under active development for coding, research, and multi-agent workflows. It explores bounded tool execution, evidence verification, retrieval, memory, durable tasks, and versioned artifacts while explicitly separating shipped, foundation, experimental, and planned capabilities.
 
-`Python` · `YOLO` · `ZED SDK` · `Open3D` · `OpenCV` · `3D Reconstruction`
+### 🛰️ 3D Damage Mapping
 
-### [PaperAgent](https://github.com/ZyfNO2/PaperAgent)
+A computer-vision pipeline using YOLO segmentation and ZED data to project 2D damage masks into fused 3D point clouds, perform point-cloud post-processing, and estimate damaged surface area.
 
-A bounded research-workflow system for literature discovery, DOI verification, persistent asynchronous tasks, paper review, and deterministic export. The project includes a local web application, diagnostics, automated quality gates, packaging, and container-based execution.
+### 📚 PaperAgent
 
-`Python` · `Research Workflow` · `FastAPI` · `SQLite` · `PWA` · `Docker`
+A bounded research-workflow system for literature discovery, DOI verification, persistent asynchronous tasks, paper review, deterministic export, diagnostics, packaging, and container-based execution.
 
-### [TBS Game](https://github.com/ZyfNO2/TBS_Game)
+### 🎮 TBS Game
 
-A Unity-based turn-based strategy prototype used to explore gameplay systems, interaction logic, and maintainable implementation patterns for game development.
+A Unity-based turn-based strategy prototype for experimenting with gameplay systems, state-driven interaction logic, and maintainable implementation patterns.
 
-`Unity` · `C#` · `Game Systems` · `Turn-Based Strategy`
+## `> technology_stack`
 
-## Engineering Focus
+<div align="center">
 
-- Designing bounded Agent runtimes and controlled tool execution
-- Building persistent and observable asynchronous workflows
-- Separating implemented capabilities from experimental and planned work
-- Developing computer-vision pipelines from detection to 3D measurement
-- Converting research ideas into reproducible experiments and maintainable software
+<img src="https://skillicons.dev/icons?i=python,cpp,cs,js,ts,pytorch,opencv,unity,react,fastapi,docker,git,github,linux,sqlite&perline=8" />
 
-## Technical Stack
+</div>
 
-**Languages:** Python, C#, C++, JavaScript, SQL  
-**AI & Vision:** PyTorch, OpenCV, Ultralytics YOLO, Open3D, ZED SDK  
-**Systems & Applications:** Unity, FastAPI, SQLite, Docker, Git, Linux  
-**Research Practice:** Experiment design, model evaluation, failure analysis, technical documentation
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Current Focus
+### AI & Research
 
-- Developing a reliable and auditable Agent Runtime
-- Studying learning-based behavior control for autonomous game agents
-- Improving reproducibility, evaluation, and documentation in AI projects
-- Exploring computer vision and 3D perception for practical applications
+- Agent runtime architecture
+- Retrieval and evidence verification
+- Multi-agent coordination
+- Imitation and reinforcement learning
+- Computer vision and 3D perception
+- Experiment design and failure analysis
 
-## Additional Work
+</td>
+<td width="50%" valign="top">
 
-- [ShaderCollectionV2](https://github.com/ZyfNO2/ShaderCollectionV2) — shader and real-time rendering experiments
-- [ZED-SLAM3R](https://github.com/ZyfNO2/ZED-SLAM3R) — ZED-based 3D perception experiments
-- [ZED-Fast-FoundationStereo](https://github.com/ZyfNO2/ZED-Fast-FoundationStereo) — stereo-depth integration experiments
+### Systems & Applications
 
-## Contact
+- Persistent asynchronous workflows
+- Controlled tool execution
+- SQLite-backed local systems
+- Unity gameplay architecture
+- Dockerized application delivery
+- Technical documentation and testing
 
-- GitHub: [@ZyfNO2](https://github.com/ZyfNO2)
-- Email: [Z1015558261@outlook.com](mailto:Z1015558261@outlook.com)
+</td>
+</tr>
+</table>
 
----
+## `> current_vector`
 
-<sub>This profile emphasizes current, verifiable work. Experimental and planned capabilities are labeled as such in the corresponding project repositories.</sub>
+```text
+Rule-based behavior
+        ↓
+Imitation learning
+        ↓
+Reinforcement learning
+        ↓
+Adaptive, evaluable autonomous agents
+```
+
+Current work centers on reliable Agent Runtime development, learning-based game-agent behavior, research workflow automation, and practical 3D computer-vision systems.
+
+## `> activity`
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ZyfNO2&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=ZyfNO2&theme=tokyonight&hide_border=true" />
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ZyfNO2&theme=tokyo-night&hide_border=true&area=true&custom_title=Development%20Activity" />
+
+</div>
+
+## `> additional_experiments`
+
+- [`ShaderCollectionV2`](https://github.com/ZyfNO2/ShaderCollectionV2) — shaders and real-time rendering experiments
+- [`ZED-SLAM3R`](https://github.com/ZyfNO2/ZED-SLAM3R) — ZED-based 3D perception experiments
+- [`ZED-Fast-FoundationStereo`](https://github.com/ZyfNO2/ZED-Fast-FoundationStereo) — stereo-depth integration experiments
+
+<div align="center">
+
+<a href="https://github.com/ZyfNO2">
+  <img src="https://img.shields.io/badge/GitHub-ZyfNO2-181717?style=for-the-badge&logo=github" />
+</a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:312e81,100:0f172a&height=115&section=footer" />
+
+</div>
