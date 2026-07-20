@@ -1,10 +1,8 @@
 <div align="center">
 
 <a href="https://github.com/ZyfNO2">
-  <img src="./assets/kimi-hero.svg" width="100%" alt="ZyfNO2 — Agent systems, computer vision, and game AI" />
+  <img src="./assets/kimi-hero.svg" width="100%" alt="ZyfNO2 — agent systems, computer vision, and game AI" />
 </a>
-
-<br />
 
 <a href="#featured-work">Featured work</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -16,166 +14,69 @@
 
 </div>
 
-<br />
-
 ## What I work on
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Research** — learning-based behavior control for autonomous agents, with an emphasis on imitation learning, reinforcement learning, evaluation, and failure analysis.
 
-<h3>Research</h3>
-<p>Learning-based behavior control for autonomous agents, with an emphasis on imitation learning, reinforcement learning, evaluation, and failure analysis.</p>
+`Autonomous agents` `Game AI` `Imitation learning` `Reinforcement learning`
 
-<p>
-<kbd>Autonomous agents</kbd>
-<kbd>Game AI</kbd>
-<kbd>Imitation learning</kbd>
-<kbd>Reinforcement learning</kbd>
-</p>
+**Engineering** — reliable AI systems with bounded execution, explicit capability maturity, persistent workflows, evidence-aware retrieval, and reproducible delivery.
 
-</td>
-<td width="50%" valign="top">
-
-<h3>Engineering</h3>
-<p>Reliable AI systems with bounded execution, explicit capability maturity, persistent workflows, evidence-aware retrieval, and reproducible delivery.</p>
-
-<p>
-<kbd>Agent runtime</kbd>
-<kbd>Retrieval</kbd>
-<kbd>Computer vision</kbd>
-<kbd>3D perception</kbd>
-</p>
-
-</td>
-</tr>
-</table>
-
-<br />
+`Agent runtime` `Retrieval` `Computer vision` `3D perception`
 
 <a id="featured-work"></a>
+
 ## Featured work
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [PaperClaw ↗](https://github.com/ZyfNO2/PaperClaw) · auditable agent runtime
 
-<h3><a href="https://github.com/ZyfNO2/PaperClaw">PaperClaw ↗</a></h3>
-<p><strong>Auditable Agent Runtime</strong></p>
-<p>A bounded runtime for coding, research, retrieval, and multi-agent workflows. The project separates shipped, foundation, experimental, and planned capabilities instead of presenting every prototype as production-ready.</p>
+A bounded runtime for coding, research, retrieval, and multi-agent workflows. Capability maturity is explicit — **shipped**, **foundation**, **experimental**, and **planned** are tracked separately, so prototypes are never presented as production-ready.
 
-<p>
-<kbd>Python</kbd>
-<kbd>Multi-agent</kbd>
-<kbd>SQLite</kbd>
-<kbd>Retrieval</kbd>
-</p>
+`Python` `Multi-agent` `SQLite` `Retrieval`
 
-</td>
-<td width="50%" valign="top">
+### [3D Damage Mapping ↗](https://github.com/ZyfNO2/Mapping) · ZED + YOLO + point clouds
 
-<h3><a href="https://github.com/ZyfNO2/Mapping">3D Damage Mapping ↗</a></h3>
-<p><strong>ZED + YOLO + point clouds</strong></p>
-<p>A computer-vision pipeline that projects 2D segmentation masks into fused 3D point clouds, applies geometric post-processing, and estimates damaged surface area.</p>
+A computer-vision pipeline that projects 2D segmentation masks into fused 3D point clouds, applies geometric post-processing, and estimates damaged surface area.
 
-<p>
-<kbd>YOLO</kbd>
-<kbd>ZED SDK</kbd>
-<kbd>Open3D</kbd>
-<kbd>OpenCV</kbd>
-</p>
+`YOLO` `ZED SDK` `Open3D` `OpenCV`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### [PaperAgent ↗](https://github.com/ZyfNO2/PaperAgent) · research workflow system
 
-<h3><a href="https://github.com/ZyfNO2/PaperAgent">PaperAgent ↗</a></h3>
-<p><strong>Research workflow system</strong></p>
-<p>A local research application for literature discovery, DOI verification, persistent asynchronous tasks, review, deterministic export, diagnostics, packaging, and container delivery.</p>
+A local research application for literature discovery, DOI verification, persistent asynchronous tasks, review, deterministic export, and container delivery.
 
-<p>
-<kbd>FastAPI</kbd>
-<kbd>SQLite</kbd>
-<kbd>PWA</kbd>
-<kbd>Docker</kbd>
-</p>
+`FastAPI` `SQLite` `PWA` `Docker`
 
-</td>
-<td width="50%" valign="top">
+### [TBS Game ↗](https://github.com/ZyfNO2/TBS_Game) · Unity strategy prototype
 
-<h3><a href="https://github.com/ZyfNO2/TBS_Game">TBS Game ↗</a></h3>
-<p><strong>Unity strategy prototype</strong></p>
-<p>A turn-based game prototype used to explore state-driven interaction, gameplay-system composition, configurable behavior, and maintainable Unity implementation patterns.</p>
+A turn-based game prototype used to explore state-driven interaction, gameplay-system composition, configurable behavior, and maintainable Unity implementation patterns.
 
-<p>
-<kbd>Unity</kbd>
-<kbd>C#</kbd>
-<kbd>Game systems</kbd>
-<kbd>Turn-based</kbd>
-</p>
-
-</td>
-</tr>
-</table>
-
-<br />
+`Unity` `C#` `Game systems` `Turn-based`
 
 <a id="research-vector"></a>
+
 ## Research vector
 
 <div align="center">
-  <img src="./assets/research-vector.svg" width="100%" alt="Rule systems to adaptive autonomous agents" />
+  <img src="./assets/research-vector.svg" width="82%" alt="Research vector: rule systems, imitation learning, reinforcement learning, adaptive agents" />
 </div>
 
-<p align="center">
 The objective is not to replace explicit control blindly, but to compare rule-based, imitation-learning, and reinforcement-learning approaches under clear behavioral and engineering metrics.
-</p>
-
-<br />
 
 <a id="toolkit"></a>
+
 ## Toolkit
 
-<p align="center">
-<kbd>Python</kbd>&nbsp;
-<kbd>C++</kbd>&nbsp;
-<kbd>C#</kbd>&nbsp;
-<kbd>JavaScript</kbd>&nbsp;
-<kbd>PyTorch</kbd>&nbsp;
-<kbd>OpenCV</kbd>&nbsp;
-<kbd>Open3D</kbd>&nbsp;
-<kbd>Unity</kbd>&nbsp;
-<kbd>FastAPI</kbd>&nbsp;
-<kbd>SQLite</kbd>&nbsp;
-<kbd>Docker</kbd>&nbsp;
-<kbd>Linux</kbd>&nbsp;
-<kbd>Git</kbd>
-</p>
-
-<br />
+`Python` `C++` `C#` `JavaScript` `PyTorch` `OpenCV` `Open3D` `Unity` `FastAPI` `SQLite` `Docker` `Linux` `Git`
 
 <a id="experiments"></a>
+
 ## Experiments
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<strong><a href="https://github.com/ZyfNO2/ShaderCollectionV2">ShaderCollectionV2 ↗</a></strong><br />
-<sub>Shaders and real-time rendering studies.</sub>
-</td>
-<td width="33%" valign="top">
-<strong><a href="https://github.com/ZyfNO2/ZED-SLAM3R">ZED-SLAM3R ↗</a></strong><br />
-<sub>ZED-based 3D perception experiments.</sub>
-</td>
-<td width="33%" valign="top">
-<strong><a href="https://github.com/ZyfNO2/ZED-Fast-FoundationStereo">ZED-FoundationStereo ↗</a></strong><br />
-<sub>Stereo-depth integration experiments.</sub>
-</td>
-</tr>
-</table>
+- **[ShaderCollectionV2 ↗](https://github.com/ZyfNO2/ShaderCollectionV2)** — shaders and real-time rendering studies.
+- **[ZED-SLAM3R ↗](https://github.com/ZyfNO2/ZED-SLAM3R)** — ZED-based 3D perception experiments.
+- **[ZED-Fast-FoundationStereo ↗](https://github.com/ZyfNO2/ZED-Fast-FoundationStereo)** — stereo-depth integration experiments.
 
-<br />
+---
 
 <div align="center">
 
