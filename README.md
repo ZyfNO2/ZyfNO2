@@ -50,12 +50,6 @@ A Unity-based turn-based strategy prototype used to explore gameplay systems, in
 
 `Unity` · `C#` · `Game Systems` · `Turn-Based Strategy`
 
-### [LangChain & LangGraph Notes](https://github.com/ZyfNO2/AgentByHeiMa)
-
-Structured learning notes covering LLM application fundamentals, LangChain, tools, memory, agents, RAG, LangGraph runtime concepts, and state management, published as a GitHub Pages documentation site.
-
-`LangChain` · `LangGraph` · `RAG` · `JavaScript` · `GitHub Pages`
-
 ## Engineering Focus
 
 - Designing bounded Agent runtimes and controlled tool execution
