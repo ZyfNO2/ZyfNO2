@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="ZyfNO2 profile header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f8f5"/>
+      <stop offset="0.58" stop-color="#f4f4f0"/>
+      <stop offset="1" stop-color="#ecece7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#b8c7ff" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#b8c7ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#c8f0d2" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#c8f0d2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#111111" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="358" rx="34" fill="url(#bg)" stroke="#deded8"/>
+
+  <g filter="url(#blur)" opacity="0.82">
+    <circle cx="1010" cy="82" r="170" fill="url(#glowA)">
+      <animate attributeName="cx" values="1010;940;1010" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="82;118;82" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="890" cy="290" r="150" fill="url(#glowB)">
+      <animate attributeName="cx" values="890;960;890" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="290;250;290" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="68" y="66" fill="#777772" font-size="15" font-weight="600" letter-spacing="3">PROFILE / SYSTEMS / RESEARCH</text>
+    <text x="68" y="160" fill="#11110f" font-size="78" font-weight="700" letter-spacing="-3">ZyfNO2</text>
+    <text x="70" y="207" fill="#54544f" font-size="23">Building reliable agent systems, vision pipelines, and game intelligence.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="68" y="258" width="660" height="62" rx="31" fill="#ffffff" stroke="#ddddda"/>
+      <circle cx="101" cy="289" r="17" fill="#11110f"/>
+      <path d="M94 289h13m-5-5 5 5-5 5" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="132" y="297" fill="#2d2d29" font-size="19" font-weight="500">What are we building next?</text>
+      <rect x="574" y="275" width="134" height="28" rx="14" fill="#f0f0ec"/>
+      <text x="641" y="294" text-anchor="middle" fill="#666661" font-size="13" font-weight="600">OPEN PROFILE</text>
+    </g>
+
+    <g transform="translate(945 180)">
+      <circle cx="0" cy="0" r="74" fill="#11110f"/>
+      <circle cx="0" cy="0" r="52" fill="#f6f6f2"/>
+      <circle cx="0" cy="0" r="23" fill="#11110f">
+        <animate attributeName="r" values="21;26;21" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="91" fill="none" stroke="#11110f" stroke-opacity="0.16" stroke-width="1.5" stroke-dasharray="7 10">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
