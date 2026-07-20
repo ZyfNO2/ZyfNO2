@@ -1,152 +1,184 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:0f766e&height=190&section=header&text=ZyfNO2&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Agent%20Systems%20%C2%B7%20Computer%20Vision%20%C2%B7%20Game%20AI&descAlignY=58&descSize=18" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&pause=900&color=7AA2F7&center=true&vCenter=true&width=760&lines=Building+reliable+AI+agent+systems;Exploring+autonomous+behavior+and+Game+AI;Turning+computer+vision+into+3D+understanding;Research-minded+%C3%97+engineering-driven" alt="Typing SVG" />
+<a href="https://github.com/ZyfNO2">
+  <img src="./assets/kimi-hero.svg" width="100%" alt="ZyfNO2 — Agent systems, computer vision, and game AI" />
 </a>
 
-<p>
-  <img src="https://img.shields.io/badge/Focus-AI%20Agents-7aa2f7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Research-Computer%20Vision-9ece6a?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-Game%20AI-bb9af7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Principle-Reliable%20Systems-f7768e?style=for-the-badge" />
-</p>
+<br />
+
+<a href="#featured-work">Featured work</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#research-vector">Research vector</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#toolkit">Toolkit</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#experiments">Experiments</a>
 
 </div>
 
-## `> profile`
+<br />
 
-```yaml
-focus:
-  - reliable and auditable agent runtimes
-  - autonomous behavior and multi-agent systems
-  - computer vision, 3D perception, and point clouds
-  - game systems and interactive AI applications
-
-research_direction:
-  - imitation learning
-  - reinforcement learning
-  - learning-based NPC behavior control
-  - reproducible AI evaluation
-
-engineering_values:
-  - bounded execution
-  - explicit capability maturity
-  - testable architecture
-  - failure-aware design
-```
-
-## `> featured_projects`
-
-<div align="center">
-
-<a href="https://github.com/ZyfNO2/PaperClaw">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=PaperClaw&theme=tokyonight&hide_border=true&description_lines_count=2" />
-</a>
-<a href="https://github.com/ZyfNO2/Mapping">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=Mapping&theme=tokyonight&hide_border=true&description_lines_count=2" />
-</a>
-
-<a href="https://github.com/ZyfNO2/PaperAgent">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=PaperAgent&theme=tokyonight&hide_border=true&description_lines_count=2" />
-</a>
-<a href="https://github.com/ZyfNO2/TBS_Game">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=ZyfNO2&repo=TBS_Game&theme=tokyonight&hide_border=true&description_lines_count=2" />
-</a>
-
-</div>
-
-### 🦞 PaperClaw
-
-An auditable Agent Runtime under active development for coding, research, and multi-agent workflows. It explores bounded tool execution, evidence verification, retrieval, memory, durable tasks, and versioned artifacts while explicitly separating shipped, foundation, experimental, and planned capabilities.
-
-### 🛰️ 3D Damage Mapping
-
-A computer-vision pipeline using YOLO segmentation and ZED data to project 2D damage masks into fused 3D point clouds, perform point-cloud post-processing, and estimate damaged surface area.
-
-### 📚 PaperAgent
-
-A bounded research-workflow system for literature discovery, DOI verification, persistent asynchronous tasks, paper review, deterministic export, diagnostics, packaging, and container-based execution.
-
-### 🎮 TBS Game
-
-A Unity-based turn-based strategy prototype for experimenting with gameplay systems, state-driven interaction logic, and maintainable implementation patterns.
-
-## `> technology_stack`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,cpp,cs,js,ts,pytorch,opencv,unity,react,fastapi,docker,git,github,linux,sqlite&perline=8" />
-
-</div>
+## What I work on
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### AI & Research
+<h3>Research</h3>
+<p>Learning-based behavior control for autonomous agents, with an emphasis on imitation learning, reinforcement learning, evaluation, and failure analysis.</p>
 
-- Agent runtime architecture
-- Retrieval and evidence verification
-- Multi-agent coordination
-- Imitation and reinforcement learning
-- Computer vision and 3D perception
-- Experiment design and failure analysis
+<p>
+<kbd>Autonomous agents</kbd>
+<kbd>Game AI</kbd>
+<kbd>Imitation learning</kbd>
+<kbd>Reinforcement learning</kbd>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### Systems & Applications
+<h3>Engineering</h3>
+<p>Reliable AI systems with bounded execution, explicit capability maturity, persistent workflows, evidence-aware retrieval, and reproducible delivery.</p>
 
-- Persistent asynchronous workflows
-- Controlled tool execution
-- SQLite-backed local systems
-- Unity gameplay architecture
-- Dockerized application delivery
-- Technical documentation and testing
+<p>
+<kbd>Agent runtime</kbd>
+<kbd>Retrieval</kbd>
+<kbd>Computer vision</kbd>
+<kbd>3D perception</kbd>
+</p>
 
 </td>
 </tr>
 </table>
 
-## `> current_vector`
+<br />
 
-```text
-Rule-based behavior
-        ↓
-Imitation learning
-        ↓
-Reinforcement learning
-        ↓
-Adaptive, evaluable autonomous agents
-```
+<a id="featured-work"></a>
+## Featured work
 
-Current work centers on reliable Agent Runtime development, learning-based game-agent behavior, research workflow automation, and practical 3D computer-vision systems.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## `> activity`
+<h3><a href="https://github.com/ZyfNO2/PaperClaw">PaperClaw ↗</a></h3>
+<p><strong>Auditable Agent Runtime</strong></p>
+<p>A bounded runtime for coding, research, retrieval, and multi-agent workflows. The project separates shipped, foundation, experimental, and planned capabilities instead of presenting every prototype as production-ready.</p>
+
+<p>
+<kbd>Python</kbd>
+<kbd>Multi-agent</kbd>
+<kbd>SQLite</kbd>
+<kbd>Retrieval</kbd>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/ZyfNO2/Mapping">3D Damage Mapping ↗</a></h3>
+<p><strong>ZED + YOLO + point clouds</strong></p>
+<p>A computer-vision pipeline that projects 2D segmentation masks into fused 3D point clouds, applies geometric post-processing, and estimates damaged surface area.</p>
+
+<p>
+<kbd>YOLO</kbd>
+<kbd>ZED SDK</kbd>
+<kbd>Open3D</kbd>
+<kbd>OpenCV</kbd>
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/ZyfNO2/PaperAgent">PaperAgent ↗</a></h3>
+<p><strong>Research workflow system</strong></p>
+<p>A local research application for literature discovery, DOI verification, persistent asynchronous tasks, review, deterministic export, diagnostics, packaging, and container delivery.</p>
+
+<p>
+<kbd>FastAPI</kbd>
+<kbd>SQLite</kbd>
+<kbd>PWA</kbd>
+<kbd>Docker</kbd>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/ZyfNO2/TBS_Game">TBS Game ↗</a></h3>
+<p><strong>Unity strategy prototype</strong></p>
+<p>A turn-based game prototype used to explore state-driven interaction, gameplay-system composition, configurable behavior, and maintainable Unity implementation patterns.</p>
+
+<p>
+<kbd>Unity</kbd>
+<kbd>C#</kbd>
+<kbd>Game systems</kbd>
+<kbd>Turn-based</kbd>
+</p>
+
+</td>
+</tr>
+</table>
+
+<br />
+
+<a id="research-vector"></a>
+## Research vector
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ZyfNO2&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=ZyfNO2&theme=tokyonight&hide_border=true" />
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ZyfNO2&theme=tokyo-night&hide_border=true&area=true&custom_title=Development%20Activity" />
-
+  <img src="./assets/research-vector.svg" width="100%" alt="Rule systems to adaptive autonomous agents" />
 </div>
 
-## `> additional_experiments`
+<p align="center">
+The objective is not to replace explicit control blindly, but to compare rule-based, imitation-learning, and reinforcement-learning approaches under clear behavioral and engineering metrics.
+</p>
 
-- [`ShaderCollectionV2`](https://github.com/ZyfNO2/ShaderCollectionV2) — shaders and real-time rendering experiments
-- [`ZED-SLAM3R`](https://github.com/ZyfNO2/ZED-SLAM3R) — ZED-based 3D perception experiments
-- [`ZED-Fast-FoundationStereo`](https://github.com/ZyfNO2/ZED-Fast-FoundationStereo) — stereo-depth integration experiments
+<br />
+
+<a id="toolkit"></a>
+## Toolkit
+
+<p align="center">
+<kbd>Python</kbd>&nbsp;
+<kbd>C++</kbd>&nbsp;
+<kbd>C#</kbd>&nbsp;
+<kbd>JavaScript</kbd>&nbsp;
+<kbd>PyTorch</kbd>&nbsp;
+<kbd>OpenCV</kbd>&nbsp;
+<kbd>Open3D</kbd>&nbsp;
+<kbd>Unity</kbd>&nbsp;
+<kbd>FastAPI</kbd>&nbsp;
+<kbd>SQLite</kbd>&nbsp;
+<kbd>Docker</kbd>&nbsp;
+<kbd>Linux</kbd>&nbsp;
+<kbd>Git</kbd>
+</p>
+
+<br />
+
+<a id="experiments"></a>
+## Experiments
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<strong><a href="https://github.com/ZyfNO2/ShaderCollectionV2">ShaderCollectionV2 ↗</a></strong><br />
+<sub>Shaders and real-time rendering studies.</sub>
+</td>
+<td width="33%" valign="top">
+<strong><a href="https://github.com/ZyfNO2/ZED-SLAM3R">ZED-SLAM3R ↗</a></strong><br />
+<sub>ZED-based 3D perception experiments.</sub>
+</td>
+<td width="33%" valign="top">
+<strong><a href="https://github.com/ZyfNO2/ZED-Fast-FoundationStereo">ZED-FoundationStereo ↗</a></strong><br />
+<sub>Stereo-depth integration experiments.</sub>
+</td>
+</tr>
+</table>
+
+<br />
 
 <div align="center">
 
-<a href="https://github.com/ZyfNO2">
-  <img src="https://img.shields.io/badge/GitHub-ZyfNO2-181717?style=for-the-badge&logo=github" />
-</a>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:312e81,100:0f172a&height=115&section=footer" />
+<sub>Current, public, and verifiable work. Experimental and planned capabilities are labeled in their corresponding repositories.</sub>
 
 </div>
